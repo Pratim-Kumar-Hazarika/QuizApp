@@ -8,9 +8,9 @@
 
  3. User Score at the end.
 
-#
 
-## Functionalities yet to be added
+
+# Functionalities yet to be added
 
 1. Integrating with backend
 
