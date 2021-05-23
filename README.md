@@ -8,6 +8,8 @@
 
  3. User Score at the end.
 
+ 4.Dark Mode
+
 
 
 # Functionalities Left
