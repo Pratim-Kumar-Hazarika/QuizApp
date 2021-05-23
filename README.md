@@ -7,8 +7,9 @@
  2. Correct answer shows green while incorrect shows red.
 
  3. User Score at the end.
+ 4. Dark mode
 
- 4.Dark Mode
+
 
 
 
