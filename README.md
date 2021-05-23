@@ -10,7 +10,7 @@
 
 
 
-# Functionalities yet to be added
+# Functionalities Left
 
 1. Integrating with backend
 
