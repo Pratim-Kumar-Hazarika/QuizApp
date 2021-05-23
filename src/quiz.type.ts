@@ -14,4 +14,5 @@ export type Quiz = {
   id: number;
   questions: Question[];
 };
+
 export type QuizOne = Quiz[];

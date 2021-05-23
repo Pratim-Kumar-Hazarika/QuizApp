@@ -4,6 +4,7 @@ import { QuizPlayCard } from "./QuizPlayCard";
 import { QuizEnd } from "./QuizEnd";
 import { QuizHomePage } from "./QuizHomePage";
 
+
 export default function App() {
   return (
     <div className="App">

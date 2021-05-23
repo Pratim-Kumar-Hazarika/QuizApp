@@ -1,4 +1,5 @@
 import { Box, Image } from "@chakra-ui/react";
+
 export function QuizPhotos() {
   return (
     <div className="img_div">

@@ -3,6 +3,7 @@ import { quizReducer, initialQuizState } from "./quizReducer";
 
 const QuizContext = createContext<any>({});
 
+
 export function QuizProvider({ children }: any) {
   const [state, dispatch] = useReducer(quizReducer, initialQuizState);
   const [showNextBtn, setShowNextBtn] = useState(false);

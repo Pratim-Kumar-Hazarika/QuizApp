@@ -4,6 +4,7 @@ import { Button, Text, Heading, Box ,useColorModeValue} from "@chakra-ui/react";
 import { Header } from "./Header";
 import { QuizPhotos } from "./QuizPhotos";
 
+
 export function QuizHomePage() {
   const color = useColorModeValue("gray.800", "gray.800");
   return (

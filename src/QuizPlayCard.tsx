@@ -4,7 +4,6 @@ import { quizOne } from "./quizData";
 import { useQuiz } from "./QuizProvider";
 import { Header } from "./Header";
 import { Button, Text, Heading ,useColorModeValue} from "@chakra-ui/react";
-
 import { Option } from "./quiz.type";
 
 export function QuizPlayCard() {

@@ -11,6 +11,7 @@ export type Action =
   | { type: "SCORE"; payload: { score: number } }
   | { type: "QUESTION"; payload: { questionNumber: number } };
 
+  
 export function quizReducer(state: QuizState, action: Action) {
   switch (action.type) {
     case "RESET":

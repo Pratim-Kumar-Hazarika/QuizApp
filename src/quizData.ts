@@ -1,5 +1,4 @@
 import { QuizOne } from "./quiz.type";
-
 const quizOne: QuizOne = [
   {
     quizName: "Indian Culture",

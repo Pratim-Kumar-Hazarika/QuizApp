@@ -8,6 +8,7 @@ import {
 } from "@chakra-ui/react";
 import { MoonIcon } from "@chakra-ui/icons";
 import { JamQuora } from "./JamQuora";
+
 export function Header() {
   const { toggleColorMode } = useColorMode();
   const color = useColorModeValue("gray.800", "white");
