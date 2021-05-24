@@ -14,7 +14,6 @@ export function QuizEnd() {
   } = useQuiz();
   const navigate = useNavigate();
 
-
   return (
     <>
       <Header />
@@ -24,15 +23,13 @@ export function QuizEnd() {
       <Heading as="h4" size="lg">
         Total score :{state.score} /100
       </Heading>
-      <Button
-        onClick={() => {
+      <Button onClick={() => {
           dispatch({ type: "RESET" });
           navigate("/");
           setUserClick(false);
           setShowNextBtn(false);
           setSelected("");
-        }}
-      >
+        }}  >
         Play Again
       </Button>
     </>
