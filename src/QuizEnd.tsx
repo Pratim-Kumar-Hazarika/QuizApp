@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import { useQuiz } from "./QuizProvider";
 import { Header } from "./Header";
 import { Button, Heading } from "@chakra-ui/react";
-
 export function QuizEnd() {
   const {
     state,
@@ -12,7 +11,6 @@ export function QuizEnd() {
     setSelected
   } = useQuiz();
   const navigate = useNavigate();
-
   return (
     <>
       <Header />
